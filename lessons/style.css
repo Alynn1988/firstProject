@@ -19,14 +19,9 @@ h2 {
 	text-decoration: underline;
 	color: blue;
 }
-h6 {
-	size: 0.25rem;
-	text-align: center;
-	color: #0000ff;
-}
-a {
-	background-color: #010001;
-	color: #fefffe;
+a:hover {
+	color: #ff0000;
 	text-decoration: none;
 	padding: 10px 5px 0 5px;
+	transition-duration: .4s;
 }
